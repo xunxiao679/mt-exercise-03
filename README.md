@@ -41,4 +41,9 @@ Generate (sample) some text from a trained model with:
 
     ./scripts/generate.sh
 
+# Reproduction of data
+Copy the files from the solution folder to `tools/pytorch-examples/word_language_model/data/wikitext-2`
 
+Run the `train.sh` in the scripts folder with different dropout rates to get the data.
+
+Run the `plot_training.py` and `plot_validation.py` to get the plots.
